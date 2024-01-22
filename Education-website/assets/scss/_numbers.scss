@@ -1,0 +1,45 @@
+.numbers {
+    padding: 40px 0;
+    margin-bottom: 160px;
+    .numbers__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px 176px;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        .numbers__card {
+            width: 100%;
+            text-align: center;
+            .numbers__card-img {
+                margin-bottom: 16px;
+                margin: 0 auto;
+                width: 64px;
+                height: 64px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .numbers__card-title {
+                color: #1C3554;
+                font-family: "Rubik", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+                margin-top: 16px;
+                margin-bottom: 8px;
+            }
+            .numbers__card-text {
+                color: #1C3554;
+                font-family: "Rubik", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+        }
+    }
+}

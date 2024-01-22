@@ -1,0 +1,103 @@
+.nav {
+   padding: 36px 0;
+   .wrapper {
+      width: 100%;
+      column-gap: 24px;
+      .nav__logo {
+         width: 161px;
+         height: 32px;
+      }
+
+      input[type = "checkbox"] {
+         display: none;
+      }
+
+      .menu, .close {
+         font-size: 20px;
+         cursor: pointer;
+         color: #1C3554;
+         display: none;
+      }
+
+      .nav__sections {
+         column-gap: 24px;
+         margin-left: auto;
+         
+         .becomeMentor {
+            color: #1C3554;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 32px; /* 200% */
+            text-decoration: none;
+         }
+
+      }
+   }
+}
+
+.nav__sections .nav__form {
+   column-gap: 40px;
+   
+   .input__search {
+      width: 443px;
+      input {
+         width: 100%;
+         padding: 12px 0 12px 16px;
+         border: none;
+         outline: none;
+         border-top-left-radius: 8px;
+         border-bottom-left-radius: 8px;
+         border: 1px solid #CCCCCC;
+         border-right: none;
+         color: #808080;
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 24px;
+      }
+      label {
+         border: none;
+         outline: none;
+         border: 1px solid #CCCCCC;
+         border-left: none;
+         color: #808080;
+         font-size: 16px;
+         padding: 12px 16px;
+         border-top-right-radius: 8px;
+         border-bottom-right-radius: 8px;
+         background-color: #fff;
+      }
+   }
+
+   .input__category select {
+      color: #1C3554;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px; /* 200% */
+      background-color: transparent;
+      border: none;
+      outline: none;
+      option:nth-child(1) {
+         display: none;
+      }
+   }
+}
+
+.nav__register {
+   column-gap: 16px;
+
+   .nav__login {
+      color: #1C3554;
+      border: 1px solid #1C3554;
+   }
+
+   .signup {
+      color: #fff;
+      background-color: #F72585;
+      border: 1px solid #F72585;
+      &:hover {
+         background-color: transparent;
+         color: #F72585;
+      }
+   }
+}
+

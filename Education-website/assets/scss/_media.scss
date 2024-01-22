@@ -1,0 +1,512 @@
+@media (max-width: 1260px) {
+   .nav__sections .nav__form {
+      .input__search {
+         width: 300px;
+      }
+   }
+}
+
+@media (max-width: 1200px) {
+   .showcase__content {
+      .showcase__title {
+         font-size: 50px;
+         line-height: 70px;
+      }
+
+      .showcase__lists {
+         justify-content: space-between;
+         li:nth-of-type(2) {
+            margin-left: 0;
+            margin-right: 0;
+         }
+      }
+   }
+
+   .courses .courses__cards {
+      grid-template-columns: repeat(3, 1fr);
+      .course__card .course__card-img {
+         max-width: 100%;
+
+         .course__card-section {
+            left: 30%;
+         }
+      }
+   }
+
+   .categories .category__cards {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .numbers .numbers__cards {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media (max-width: 1110px) {
+   .nav__sections .nav__form {
+      column-gap: 24px;
+      .input__search {
+         width: 100%;
+      }
+   }
+
+   .showcase__content {
+      .showcase__text {
+         margin-bottom: 30px;
+      }
+   }
+}
+
+@media (max-width: 1080px) {
+   .reviews .carousel-item .carousel__divider .carousel__content {
+      h3 {
+         font-size: 25px;
+         line-height: 35px;
+         margin-bottom: 15px;
+      }
+      h4 {
+         font-size: 20px;
+         margin-bottom: 4px;
+      }
+   }
+
+   .footer .wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+
+      .footer__logo-content {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1035px) {
+   .my-container {
+      width: 90%;
+   }
+   .nav .wrapper {
+      .menu {
+         display: inline-block;
+         margin-left: auto;
+      }
+
+      #menu:checked ~ .nav__sections{
+         transform: translateX(0);
+      }
+
+      .nav__sections {
+         position: fixed;
+         z-index: 999;
+         width: 50%;
+         height: 100vh;
+         top: 0;
+         right: 0;
+         background: rgba( 2, 25, 52, 0.9 );
+         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+         backdrop-filter: blur( 4px );
+         -webkit-backdrop-filter: blur( 4px );
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+         border: 1px solid rgba( 255, 255, 255, 0.18 );
+         flex-direction: column;
+         justify-content: center;
+         row-gap: 24px;
+         transform: translateX(200%);
+         transition: transform .3s ease;
+         color: #fff;
+   
+         .close {
+            display: inline-block;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+         }
+   
+         .nav__form, .nav__register {
+            flex-direction: column;
+            row-gap: 24px;
+         }
+   
+         .nav__form {
+            width: 80%;
+            select {
+               color: #fff;
+               option {
+                  color: #1C3554;
+               }
+            }
+         }
+
+         .becomeMentor {
+            color: #fff;
+         }
+
+         .nav__login {
+            border-color: #fff;
+            color: #fff;
+         }
+      }
+   }
+
+   .showcase {
+      .wrapper {
+         flex-direction: column-reverse;
+         row-gap: 25px;
+         padding: 65px 0;
+
+         .showcase__img {
+            // width: 529px;
+            height: 683px;
+            margin: 0 auto;
+         }
+      }
+   }
+
+   .courses .courses__cards {
+      .course__card .course__card-img {
+         .course__card-section {
+            left: 25%;
+         }
+      }
+   }
+
+   .companies .companies__cards {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .blogs .blogs__cards {
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (max-width: 900px) {
+   .mentor .wrapper {
+      grid-template-columns: 1fr;
+      .mentor__img {
+         max-width: 100%;
+      }
+   }
+
+   .reviews .carousel-item .carousel__divider {
+      align-items: center;
+      flex-direction: column;
+      row-gap: 100px;
+   }
+}
+
+@media (max-width: 850px) {
+   .courses .courses__cards {
+      grid-template-columns: 1fr 1fr;
+      .course__card .course__card-img .course__card-section {
+         left: 30%;
+      }
+   }
+
+   .categories .category__cards {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .numbers .numbers__cards {
+      grid-template-columns: 1fr 1fr;
+   }
+   
+   .companies .companies__cards {
+      grid-template-columns: 1fr 1fr;
+      a {
+         margin: 0 auto;
+      }
+      a:nth-of-type(3) {
+         grid-column: 1 / 2;
+         grid-row: 2 / 3;
+      }
+      a:nth-of-type(4) {
+         grid-column: 2 / 3;
+         grid-row: 2 / 3;
+      }
+      a:nth-of-type(5) {
+         grid-column: 1 / 2;
+         grid-row: 3 / 4;
+      }
+      a:nth-of-type(6) {
+         grid-column: 2 / 3;
+         grid-row: 3 / 4;
+      }
+   }
+
+   .footer .wrapper {
+      margin-bottom: 40px;
+   }
+
+   .footer__bottom {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+}
+
+@media (max-width: 700px) {
+   .courses .courses__cards {
+      .course__card .course__card-img .course__card-section {
+         left: 25%;
+      }
+   }
+
+   .blogs .blogs__cards {
+      grid-template-columns: 1fr;
+      .blogs__card {
+         margin: 0 auto;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .showcase__content {
+      .showcase__title {
+         font-size: 30px;
+         line-height: 40px;
+      }
+
+      .showcase__text, .showcase__lists li {
+         font-size: 14px;
+
+         img {
+            width: 20px;
+            height: 20px;
+         }
+      }
+
+      .showcase__form {
+         input, label, .showcase__search-btn {
+            font-size: 14px;
+         }
+      }
+
+      .showcase__lists {
+         column-gap: 10px;
+      }
+   }
+
+   .showcase__img {
+      .showcase__img-bell,
+      .showcase__img-verified,
+      .showcase__img-heart {
+      width: 40px;
+      height: 40px;
+      img {
+         width: 25px;
+         height: 25px;
+      }
+    }
+
+    .showcase__review {
+      .showcase__review-number {
+         font-size: 20px;
+       }
+       .showcase__review-text {
+         font-size: 14px;
+       }
+
+       .showcase__review-stars {
+         font-size: 14px;
+       }
+    }
+   }
+
+   .courses .courses__cards {
+      .course__card .course__card-img .course__card-section {
+         left: 20%;
+      }
+   }
+
+   .footer .wrapper .footer__logo-text {
+      font-size: 14px;
+   }
+
+   .footer__lists-card {
+      column-gap: 15px;
+
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+
+@media (max-width: 550px) {
+   .courses .courses__cards {
+      grid-template-columns: 1fr;
+      .course__card .course__card-img .course__card-section {
+         left: 30%;
+      }
+   }
+   .categories {
+      .category__cards {
+         grid-template-columns: 1fr;
+      }
+
+      .category__text {
+         font-size: 18px;
+      }
+   }
+
+   .numbers .numbers__cards {
+      grid-template-columns: 1fr;
+   }
+
+   .mentor .wrapper {
+      .mentor__text, .startTeaching {
+         font-size: 14px;
+      }
+   }
+}
+
+@media (max-width: 500px) {
+   .reviews .carousel-item .carousel__divider .carousel__content {
+      h3 {
+         font-size: 20px;
+         line-height: 35px;
+         margin-bottom: 15px;
+      }
+      h4 {
+         font-size: 16px;
+         margin-bottom: 4px;
+      }
+   }
+
+   .companies .companies__cards {
+      display: flex;
+      flex-direction: column;
+      a {
+         max-width: 100%;
+      }
+   }
+
+   .courses, .categories, .numbers, .mentor, .reviews, .companies, .blogs {
+      margin-bottom: 100px;
+   }
+}
+
+@media (max-width: 530px) {
+   .my-container {
+      width: 95%;
+   }
+   .showcase__content {
+      .showcase__form {
+         padding: 0 5px;
+         flex-direction: column;
+         row-gap: 15px;
+         background-color: transparent;
+         label {
+            display: none;
+         }
+
+         input {
+            border-radius: 8px;
+            padding: 12px;
+         }
+      }
+
+      .showcase__lists {
+         flex-wrap: wrap;
+         row-gap: 10px;
+      }
+   }
+
+   h2[class *= "__title"] {
+      font-size: 30px;
+   }
+   
+   .courses .courses__title {
+      margin-bottom: 20px;
+   }
+
+   .more-courses a {
+      font-size: 14px;
+   }
+
+   .categories .categories__title,
+   .mentor .wrapper .mentor__title,
+   .blogs .blogs__title {
+      margin-bottom: 20px;
+      text-align: center;
+   }
+}
+
+@media (max-width: 400px) {
+   .nav__sections .nav__form {
+      .input__search input, .input__category select {
+         font-size: 14px;
+      }
+   }
+
+   .nav .wrapper .nav__sections {
+      width: 60%;
+      .becomeMentor, .nav__register .nav__login, .nav__register .signup {
+         font-size: 14px;
+      }
+   }
+
+   .blogs__cards .blogs__card {
+      .blogs__card-img {
+         width: 100%;
+      }
+      .blogs__card-title {
+         font-size: 20px;
+      }
+      .blogs__card-text {
+         font-size: 14px;
+      }
+   }
+
+   .footer {
+      padding-top: 40px;
+   }
+
+   .footer__lists-card {
+      row-gap: 15px;
+      flex-direction: column;
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+
+   .footer__bottom {
+      justify-content: center;
+      text-align: center;
+      row-gap: 10px;
+      .footer__privacy {
+         flex-direction: column;
+         justify-content: center;
+         a {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+         }
+      }
+   }
+}
+
+@media (max-width: 350px) {
+   .courses .courses__cards {
+      .course__card .course__card-img .course__card-section {
+         left: 20%;
+      }
+   }
+
+   .categories .category__cards .category__card .category__text {
+      font-size: 20px;
+   }
+
+   .reviews .carousel-item .carousel__divider {
+      row-gap: 10px;
+   }
+}

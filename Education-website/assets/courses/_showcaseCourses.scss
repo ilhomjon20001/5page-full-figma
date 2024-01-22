@@ -1,0 +1,166 @@
+.showcase {
+
+    .showcase__intro {
+        column-gap: 8px;
+        margin-bottom: 24px;
+        a {
+            color: #1C3554;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 32px;
+            text-decoration: none;
+            &:first-child {
+                color: #808080;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #1C3554;
+        }
+    }
+
+    .showcase__title {
+        color: #1C3554;
+        max-width: 738px;
+    }
+
+    .showcase__text {
+        max-width: 712px;
+        color: #808080;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-top: 24px;
+        margin-bottom: 56px;
+    }
+
+    .showcase__courses-title {
+        margin-bottom: 32px;
+        color: #1C3554;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: capitalize;
+    }
+}
+
+.carousel__cards {
+    display: grid !important;
+    grid-template-columns: repeat(4, 295px);
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.carousel__card {
+    width: 100%;
+    .carousel__img {
+        max-width: 100%;
+        height: 208px;
+        position: relative;
+        background-color: #CCC;
+        border-radius: 4px;
+        margin-bottom: 27px;
+
+        span {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 11px);
+            padding: 4px 24px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #fff;
+            background-color: #4586D6;
+            border-radius: 8px;
+        }
+    }
+
+    .carousel__card-title {
+        color: #1C3554;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+
+    .carousel__card-team {
+        color: #F72585;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+        margin: 8px 0;
+    }
+
+    .carousel__card-rating {
+        column-gap: 8px;
+        margin-bottom: 16px;
+
+        .carousel__card-stars {
+            font-size: 14px;
+            color: #FAA307;
+        }
+
+        p {
+            color: #808080;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+
+    .carousel__card-price {
+        column-gap: 8px;
+        del {
+            color: #CCC;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: capitalize;
+        }
+        p {
+            color: #1C3554;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px; 
+        }
+    }
+}
+
+#carousel {
+    position: relative;
+
+    .carousel-indicators {
+        display: none;
+        position: absolute;
+        bottom: -100px;
+        button {
+            width: 10px;
+            height: 10px;
+            background-color: #CCC;
+            border-radius: 50%;
+            &.active {
+                background-color: #000;
+            }
+        }
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        background-color: #CCC;
+        color: #FFF;
+    }
+
+    .carousel-control-prev {
+        left: -47px;
+    }
+    .carousel-control-next {
+        right: -47px;
+    }
+}
+

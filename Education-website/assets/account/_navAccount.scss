@@ -1,0 +1,53 @@
+.header {
+   background-color: rgba(0, 0, 0, 0.5);
+   .nav {
+      padding-bottom: 356px;
+
+      .wrapper {
+         .menu, .close, .nav__sections .becomeMentor {
+            color: #fff;
+         }
+      }  
+   }
+}
+
+.nav__sections .nav__form {
+   .input__search {
+      input {
+         background-color: transparent;
+         color: #E6E6E6;
+         &::placeholder {
+            color: #E6E6E6;
+         }
+      }
+      label {
+         background-color: transparent;
+         color: #fff;
+      }
+   }
+
+   .input__category select {
+      color: #fff;
+      option {
+         color: #000;
+      }
+   }
+}
+
+.nav__sections .nav__account {
+   column-gap: 8px;
+   .nav__account-profile {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #AAA;
+   }
+
+   .nav__account-email {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+}

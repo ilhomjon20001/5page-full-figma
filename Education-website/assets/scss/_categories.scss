@@ -1,0 +1,33 @@
+.categories {
+    margin-bottom: 160px;
+    .category__cards {
+        margin-top: 56px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        .category__card {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            .category__img {
+                width: 100%;
+                img {
+                    border-radius: 8px;
+                    width: 100%;
+                }
+            }
+
+            .category__text {
+                position: absolute;
+                bottom: 40px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #fff;
+                font-family: "Rubik", sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 32px;
+            }
+        }
+    }
+}

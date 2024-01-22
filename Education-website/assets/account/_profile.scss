@@ -1,0 +1,156 @@
+.profile {
+   padding-top: 48px;
+   padding-bottom: 160px;
+
+   .profile__info {
+      display: flex;
+      align-items: center;
+      column-gap: 24px;
+      margin-bottom: 64px;
+
+      .profile__info-picture {
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+      }
+
+      .profile__name {
+         color: #1C3554;
+         font-family: "Rubik", sans-serif;
+         font-size: 32px;
+         font-weight: 700;
+         line-height: 48px;
+         text-transform: capitalize;
+         margin-bottom: 8px;
+      }
+
+      .profile__job {
+         color: #808080;
+         font-family: "Rubik", sans-serif;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 24px;
+         text-transform: capitalize;
+      }
+   }
+
+   .profile__sections {
+      column-gap: 200px;
+      margin-bottom: 56px;
+      a {
+         text-decoration: none;
+         font-family: "Rubik", sans-serif;
+         font-size: 32px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 48px;
+         padding-bottom: 8px;
+         border-bottom: 5px solid transparent;
+         transition: border-color .3s ease;
+         
+         &:first-child {
+            color: #1C3554;
+            font-weight: 500;
+            border-color: #F72585;
+         }
+         &:hover {
+            color: #1C3554;
+            font-weight: 500;
+            border-color: #F72585;
+         }
+      }
+   }
+}
+
+.profile__cards {
+   display: grid;
+   grid-template-columns: repeat(4, 295px);
+   gap: 32px 16px;
+
+   .profile__card {
+      width: 100%;
+      padding: 16px;
+      border-radius: 8px;
+      &:hover {
+         box-shadow: 3px 3px 10px 5px rgba(221, 221, 221, 0.5);
+      }
+
+      .profile__card-img {
+         position: relative;
+         max-width: 262.891px;
+         height: 208px;
+         margin-bottom: 27px;
+         text-align: center;
+         background-color: #ccc;
+         border-radius: 4px;
+         span {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translateX(-50%) translateY(10%);
+            padding: 4px 24px;
+            border-radius: 8px;
+            background-color: #4586D6;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px
+         }
+      }
+
+      .profile__card-title {
+         color: #1C3554;
+         font-family: "Rubik", sans-serif;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 24px;
+         text-transform: capitalize;
+         text-decoration: none;
+      }
+
+      .profile__card-team {
+         color: #F72585;
+         font-size: 14px;
+         font-weight: 700;
+         line-height: 24px;
+         margin-top: 8px;
+         margin-bottom: 12px;
+      }
+
+      .profile__card-stars {
+         column-gap: 8px;
+         margin-bottom: 20px;
+
+         .stars {
+            column-gap: 3px;
+            color: #FAA307;
+         }
+
+         span {
+            display: inline-block;
+            color: #808080;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+         }
+      }
+
+      .profile__card-cost {
+         column-gap: 8px;
+         del {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: capitalize;
+         }
+         p {
+            color: #1C3554;
+            font-family: "Rubik", sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+         }
+      }
+
+}
+}

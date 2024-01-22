@@ -1,0 +1,112 @@
+.article {
+   padding-top: 96px;
+   padding-bottom: 160px;
+   // margin-bottom: 200px;
+}
+
+.article__cards {
+   .article__card {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 56px;
+
+      .article__img {
+         max-width: 608px;
+         height: 517px;
+         img {
+            width: 100%;
+            border-radius: 8px;
+         }
+      }
+   
+      .article__content {
+         margin-top: 12px;
+         max-width: 552px;
+
+         .article__date {
+            margin: 24px 0;
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+            color: #808080;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+
+            li:nth-child(2) {
+               width: 8px;
+               height: 8px;
+               border-radius: 50%;
+               background-color: #4586D6;
+            }
+
+         }
+
+         .article__text {
+            margin-bottom: 72px;
+            color: #808080;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+         }
+
+         .read-more {
+            padding: 12px 32px;
+            color: #fff;
+            background-color: #F72585;
+            border: 1px solid transparent;
+            &:hover {
+               border-color: #F72585;
+               background-color: transparent;
+               color: #F72585;
+            }
+         }
+      }
+   }
+}
+
+.pagination {
+   display: flex;
+   justify-content: center;
+   column-gap: 16px;
+   li {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      border-radius: 4px;
+      a {
+         text-decoration: none;
+      }
+
+      &:first-child {
+         color: #E6E6E6;
+         pointer-events: none;
+         cursor: default;
+      }
+
+      &:last-child {
+         color: #F72585;
+      }
+
+      &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+         color: #ccc;
+         font-weight: 400;
+         line-height: 32px
+      }
+
+      &:nth-child(3):hover, &:nth-child(4):hover, &:nth-child(5):hover, &:nth-child(6):hover {
+         color: #fff;
+         background-color: #F72585;
+      }
+
+      &:nth-child(2) {
+         color: #fff;
+         background-color: #F72585;
+         font-weight: 400;
+         line-height: 32px
+      }
+   }
+}

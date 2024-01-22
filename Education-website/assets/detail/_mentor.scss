@@ -1,0 +1,105 @@
+.mentor {
+   max-width: 815px;
+   padding: 96px 0;
+
+   .mentor__title {
+      color: #1C3554;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: capitalize;
+      margin-bottom: 40px;
+   }
+}
+
+.mentor__card {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   column-gap: 32px;
+
+   .mentor__card-img {
+      max-width: 297px;
+      width: 100%;
+      height: 320px;
+      background-color: #CCC;
+      border-radius: 8px;
+   }
+
+   .mentor__card-content {
+      max-width: 481px;
+      width: 100%;
+
+      .mentor__card-title {
+         color: #1C3554;
+         font-size: 32px;
+         font-weight: 700;
+         line-height: 48px;
+         text-transform: capitalize;
+         margin-bottom: 8px;
+      }
+
+      .mentor__card-job {
+         color: #808080;
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 32px;
+         margin-bottom: 16px;
+      }
+
+      .mentor__card-reviews {
+         margin-bottom: 24px;
+         column-gap: 16px;
+         .mentor__card-stars {
+            color: #FAA307;
+            display: flex;
+            align-items: center;
+            column-gap: 3px;
+         }
+
+         .mentor__score {
+            color: #1C3554;
+            font-family: "Rubik", sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+         }
+
+         .mentor__students-reviews {
+            color: #808080;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+         }
+      }
+
+      .mentor__card-text {
+         color: #808080;
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 27px;
+         margin-bottom: 50px;
+      }
+
+      .mentor__course-students {
+         column-gap: 24px;
+         div {
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            span {
+               width: 26px;
+               height: 26px;
+               border-radius: 50%;
+               background-color: #4586D6;
+            }
+            p {
+               color: #808080;
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 32px;
+            }
+         }
+      }
+   }
+}

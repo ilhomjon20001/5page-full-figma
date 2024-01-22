@@ -1,0 +1,45 @@
+.topics {
+    margin: 160px 0;
+
+    .topics__intro {
+        margin-bottom: 56px;
+        .see__all-btn {
+            max-width: 288px;
+            width: 100%;
+            padding: 14px 24px;
+            color: #FFF;
+            background-color: #F72585;
+            text-transform: capitalize;
+            &:hover {
+                color: #F72585;
+                background-color: transparent;
+                border: 1px solid #F72585;
+            }
+        }
+    }
+}
+
+.topics__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    .topics__card {
+        position: relative;
+        max-width: 296px;
+        height: 391px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+
+        span {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+        }
+    }
+}

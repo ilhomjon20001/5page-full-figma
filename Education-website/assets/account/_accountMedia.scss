@@ -1,0 +1,286 @@
+@media (max-width: 1260px) {
+   .nav__sections .nav__form {
+      .input__search {
+         width: 300px;
+      }
+   }
+
+   .profile__cards {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+@media (max-width: 1210px) {
+   .profile__cards {
+      grid-template-columns: repeat(3, 1fr);
+      .profile__card .profile__card-img {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1110px) {
+   .nav__sections .nav__form {
+      column-gap: 24px;
+      .input__search {
+         width: 100%;
+      }
+   }
+
+   .profile .profile__sections {
+      column-gap: 20px;
+      justify-content: space-between;
+   }
+}
+
+@media (max-width: 1080px) {
+   .footer .wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+
+      .footer__logo-content {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1035px) {
+   .my-container {
+      width: 90%;
+   }
+   .nav .wrapper {
+      .menu {
+         display: inline-block;
+         margin-left: auto;
+      }
+
+      #menu:checked ~ .nav__sections{
+         transform: translateX(0);
+      }
+
+      .nav__sections {
+         position: fixed;
+         z-index: 999;
+         width: 50%;
+         height: 100vh;
+         top: 0;
+         right: 0;
+         background: rgba( 2, 25, 52, 0.9 );
+         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+         backdrop-filter: blur( 4px );
+         -webkit-backdrop-filter: blur( 4px );
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+         border: 1px solid rgba( 255, 255, 255, 0.18 );
+         flex-direction: column;
+         justify-content: center;
+         row-gap: 24px;
+         transform: translateX(200%);
+         transition: transform .3s ease;
+         color: #fff;
+   
+         .close {
+            display: inline-block;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+         }
+   
+         .nav__form, .nav__register {
+            flex-direction: column;
+            row-gap: 24px;
+         }
+   
+         .nav__form {
+            width: 80%;
+            select {
+               color: #fff;
+               option {
+                  color: #1C3554;
+               }
+            }
+         }
+
+         .becomeMentor {
+            color: #fff;
+         }
+
+         .nav__login {
+            border-color: #fff;
+            color: #fff;
+         }
+      }
+   }
+
+   .profile__cards {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (max-width: 900px) {
+   .profile .profile__sections a {
+      font-size: 25px;
+      padding-bottom: 4px;
+      border-width: 3px;
+   }
+}
+
+@media (max-width: 850px) {
+   .footer .wrapper {
+      margin-bottom: 40px;
+   }
+
+   .footer__bottom {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+}
+
+@media (max-width: 700px) {
+   .profile .profile__info .profile__name {
+      font-size: 25px;
+      margin-bottom: 4px;
+   }
+
+   .profile__cards {
+      grid-template-columns: 1fr;
+   }
+
+   .profile {
+      padding-bottom: 100px;
+   }
+}
+
+@media (max-width: 600px) {
+   .profile .profile__info {
+      flex-direction: column;
+      row-gap: 15px;
+      text-align: center;
+   }
+
+   .footer .wrapper .footer__logo-text {
+      font-size: 14px;
+   }
+
+   .footer__lists-card {
+      column-gap: 15px;
+
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+
+@media (max-width: 530px) {
+   .my-container {
+      width: 95%;
+   }
+
+   h2[class *= "__title"] {
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   .nav__sections .nav__account {
+      flex-direction: column;
+      row-gap: 15px;
+   }
+
+   .profile .profile__sections {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 15px;
+      a {
+         font-size: 20px;
+         padding-bottom: 2px;
+         border-width: 2px;
+      }
+   }
+
+   .profile {
+      padding-bottom: 70px;
+   }
+}
+
+@media (max-width: 400px) {
+   .nav__sections .nav__form {
+      .input__search input, .input__category select {
+         font-size: 14px;
+      }
+   }
+
+   .nav .wrapper .nav__sections {
+      width: 60%;
+      .becomeMentor, .nav__register .nav__login, .nav__register .signup {
+         font-size: 14px;
+      }
+   }
+
+   .footer {
+      padding-top: 40px;
+   }
+
+   .footer__lists-card {
+      row-gap: 15px;
+      flex-direction: column;
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+
+   .footer__bottom {
+      justify-content: center;
+      text-align: center;
+      row-gap: 10px;
+      .footer__privacy {
+         flex-direction: column;
+         justify-content: center;
+         a {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+         }
+      }
+   }
+}
+
+@media (max-width: 400px) {
+   .nav .wrapper .nav__sections {
+      width: 70%;
+   }
+
+   .profile__cards {
+      .profile__card .profile__card-img span{
+         transform: translate(0);
+         top: 90%;
+         left: 20%;
+         right: 20%;
+      }
+
+      .profile__card .profile__card-title {
+         font-size: 20px;
+      }
+   }
+}
+
+@media (max-width: 300px) {
+   .profile__cards {
+      .profile__card .profile__card-img span{
+         transform: translate(0);
+         top: 90%;
+         left: 10%;
+         right: 10%;
+      }
+   }
+}

@@ -1,0 +1,118 @@
+.feedback {
+    max-width: 787px;
+    padding-bottom: 96px;
+    .feedback__title {
+        color: #1C3554;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: capitalize;
+        margin-bottom: 31px;
+    }
+}
+
+.feedback__card {
+    max-width: 787px;
+    column-gap: 24px;
+
+    .feedback__content {
+        row-gap: 8px;
+
+        .feedback__content-title {
+            color: #1C3554;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 63.984px;
+        }
+
+        .feedback__content-stars {
+            font-size: 18px;
+            color: #FAA307;
+            column-gap: 6px;
+            margin-bottom: 8px;
+        }
+
+        .feedback__content-text {
+            color: #1C3554;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.feedback__progress {
+    max-width: 610px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+
+    .feedback__progress-item .progress {
+        height: 10px;
+        border-radius: 28px;
+        background-color: #E6E6E6;
+        color: #E6E6E6;
+        margin-right: 8px;
+
+        .progress-bar {
+            background-color: #FAA307;
+        }
+    }
+
+    .feedback__progress-item {
+        .feedback__progress-stars {
+            font-size: 12px;
+            color: #FAA307;
+            .gray-star {
+                color: #CCC;
+            }
+        }
+
+        .feedback__progress-text {
+            color: #1C3554;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    
+    .feedback__progress-item:nth-child(1) .progress {
+        width: 383px;
+        .progress-bar {
+            width: 298px;
+        }
+    }
+
+    .feedback__progress-item:nth-child(2) .progress {
+        width: 351px;
+        .progress-bar {
+            width: 252px;
+        }
+    }
+
+    .feedback__progress-item:nth-child(3) .progress {
+        width: 303px;
+        .progress-bar {
+            width: 211px;
+        }
+    }
+
+    .feedback__progress-item:nth-child(4) .progress {
+        width: 274px;
+        .progress-bar {
+            width: 175px;
+        }
+    }
+
+    .feedback__progress-item:nth-child(5) .progress {
+        width: 242px;
+        .progress-bar {
+            width: 132px;
+        }
+    }
+
+    .feedback__progress-item {
+        column-gap: 8px;
+    }
+}

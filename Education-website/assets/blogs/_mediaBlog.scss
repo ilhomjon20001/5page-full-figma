@@ -1,0 +1,252 @@
+@media (max-width: 1260px) {
+   .nav__sections .nav__form {
+      .input__search {
+         width: 300px;
+      }
+   }
+}
+
+@media (max-width: 1230px) {
+   .article__cards .article__card {
+      flex-direction: column;
+      row-gap: 20px;
+
+      .article__img {
+         margin: 0 auto;
+         width: 100%;
+         height: 100%;
+      }
+
+      .article__content {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1110px) {
+   .nav__sections .nav__form {
+      column-gap: 24px;
+      .input__search {
+         width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1080px) {
+   .footer .wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+
+      .footer__logo-content {
+         max-width: 100%;
+      }
+   }
+}
+
+@media (max-width: 1035px) {
+   .my-container {
+      width: 90%;
+   }
+   .nav .wrapper {
+      .menu {
+         display: inline-block;
+         margin-left: auto;
+      }
+
+      #menu:checked ~ .nav__sections{
+         transform: translateX(0);
+      }
+
+      .nav__sections {
+         position: fixed;
+         z-index: 999;
+         width: 50%;
+         height: 100vh;
+         top: 0;
+         right: 0;
+         background: rgba( 2, 25, 52, 0.9 );
+         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+         backdrop-filter: blur( 4px );
+         -webkit-backdrop-filter: blur( 4px );
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+         border: 1px solid rgba( 255, 255, 255, 0.18 );
+         flex-direction: column;
+         justify-content: center;
+         row-gap: 24px;
+         transform: translateX(200%);
+         transition: transform .3s ease;
+         color: #fff;
+   
+         .close {
+            display: inline-block;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+         }
+   
+         .nav__form, .nav__register {
+            flex-direction: column;
+            row-gap: 24px;
+         }
+   
+         .nav__form {
+            width: 80%;
+            select {
+               color: #fff;
+               option {
+                  color: #1C3554;
+               }
+            }
+         }
+
+         .becomeMentor {
+            color: #fff;
+         }
+
+         .nav__login {
+            border-color: #fff;
+            color: #fff;
+         }
+      }
+   }
+}
+
+@media (max-width: 850px) {
+   .footer .wrapper {
+      margin-bottom: 40px;
+   }
+
+   .footer__bottom {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+}
+
+@media (max-width: 800px) {
+   .showcase {
+      padding-bottom: 60px;
+      .showcase__title {
+         font-size: 40px;
+         margin-top: 30px;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .footer .wrapper .footer__logo-text {
+      font-size: 14px;
+   }
+
+   .footer__lists-card {
+      column-gap: 15px;
+
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+
+@media (max-width: 530px) {
+   .my-container {
+      width: 95%;
+   }
+
+   h2[class *= "__title"] {
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   .showcase {
+      padding-bottom: 40px;
+      .showcase__title {
+         font-size: 30px;
+         margin-top: 20px;
+         line-height: 20px;
+      }
+   }
+
+   .article {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+
+   .article__cards .article__card .article__content {
+      .article__date {
+         margin: 16px 0;
+      }
+      .article__text {
+         font-size: 14px;
+         margin-bottom: 20px;
+      }
+      .read-more {
+         font-size: 14px;
+      }
+   }
+
+   .pagination {
+      column-gap: 10px;
+      li {
+         font-size: 14px;
+      }
+   }
+}
+
+@media (max-width: 400px) {
+   .nav__sections .nav__form {
+      .input__search input, .input__category select {
+         font-size: 14px;
+      }
+   }
+
+   .nav .wrapper .nav__sections {
+      width: 60%;
+      .becomeMentor, .nav__register .nav__login, .nav__register .signup {
+         font-size: 14px;
+      }
+   }
+
+   .article__cards .article__card .article__content {
+      .article__title {
+         font-size: 25px;
+      }
+   }
+
+   .footer {
+      padding-top: 40px;
+   }
+
+   .footer__lists-card {
+      row-gap: 15px;
+      flex-direction: column;
+      ul li {
+         font-size: 14px;
+         margin-bottom: 2px;
+         &:first-child {
+            font-size: 18px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+
+   .footer__bottom {
+      justify-content: center;
+      text-align: center;
+      row-gap: 10px;
+      .footer__privacy {
+         flex-direction: column;
+         justify-content: center;
+         a {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+         }
+      }
+   }
+}

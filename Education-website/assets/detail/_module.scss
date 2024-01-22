@@ -1,0 +1,89 @@
+.module {
+   max-width: 728px;
+}
+
+.module__intro {
+   margin-bottom: 40px;
+
+   .module__title {
+      color: #1C3554;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: capitalize;
+   }
+
+   .module__course-info {
+      color: #1C3554;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px;
+   }
+}
+
+
+.accordion {
+   margin-bottom: 40px;
+   .accordion-item {
+      border: none;
+      outline: none;
+      .accordion-button {
+         padding: 24px 40px;
+         color: #1C3554;
+         font-family: "Montserrat", sans-serif;
+         font-size: 16px;
+         font-weight: 700;
+         line-height: 32px;
+         background-color: transparent;
+         border: none;
+         outline: none;
+         &:focus, &:hover {
+            border: none;
+            outline: none;
+            box-shadow: none;
+         }
+      }
+
+      .accordion__lists {
+         display: flex;
+         flex-direction: column;
+         row-gap: 24px;
+         padding: 40px;
+         border: 1px solid #E6E6E6;
+         border-right: none;
+      }
+   }
+}
+
+.accordion__lists-item {
+   img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+   }
+   .module__theme-title {
+      color: #1C3554;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+   }
+   .module__hour {
+      color: #808080;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+   }
+}
+
+
+.module__addition-btn {
+   display: block;
+   background-color: #F72585;
+   color: #fff;
+   padding: 24px 40px;
+   &:hover {
+      color: #F72585;
+      background-color: transparent;
+      border: 1px solid #F72585;
+   }
+}

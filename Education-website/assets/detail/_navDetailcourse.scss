@@ -1,0 +1,41 @@
+.header {
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+   .wrapper {
+      .menu, .close, .nav__sections .becomeMentor {
+         color: #fff;
+      }
+   }   
+}
+
+.nav__sections .nav__form {
+   .input__search {
+      input {
+         background-color: transparent;
+         color: #E6E6E6;
+         &::placeholder {
+            color: #E6E6E6;
+         }
+      }
+      label {
+         background-color: transparent;
+         color: #fff;
+      }
+   }
+
+   .input__category select {
+      color: #fff;
+      option {
+         color: #000;
+      }
+   }
+}
+
+.nav__register {
+   .nav__login {
+      color: #fff;
+      border-color: #fff;
+   }
+}

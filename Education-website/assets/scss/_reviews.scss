@@ -1,0 +1,41 @@
+.reviews {
+    margin-bottom: 224px;
+    .carousel-indicators .li{
+        background-color: #f00;
+    }
+}
+
+.reviews .carousel-item .carousel__divider {
+    column-gap: 48px;
+    .carousel__img {
+        max-width: 338px;
+        height: 377px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .carousel__content {
+        margin-top: 63px;
+        h3 {
+            color: #1C3554;
+            font-family: "Rubik", sans-serif;
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 32px;
+        }
+        h4 {
+            color: #1C3554;
+            font-family: "Rubik", sans-serif;
+            font-size: 24px;
+            line-height: 48px;
+            margin-bottom: 8px;
+        }
+        p {
+            color: #808080;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}

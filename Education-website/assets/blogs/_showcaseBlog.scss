@@ -1,0 +1,22 @@
+.showcase {
+   padding-top: 16px;
+   padding-bottom: 120px;
+   .showcase__lists {
+      column-gap: 8px;
+      li {
+         color: #fff;
+         &:first-child {
+            color: #E6E6E6;
+         }
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 32px;
+      }
+   }
+
+   .showcase__title {
+      margin-top: 64px;
+      color: #fff;
+      text-transform: capitalize;
+   }
+}

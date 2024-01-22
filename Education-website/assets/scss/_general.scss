@@ -1,0 +1,62 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+}
+
+a {
+   color: inherit;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+header,
+section,
+footer,
+form,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.my-container {
+   max-width: 1256px;
+   padding: 0 12px;
+   margin: 0 auto;
+   box-sizing: border-box !important;
+}
+
+
+
+h1, h2, h3, h4 {
+   font-family: 'Rubik', sans-serif;
+}
+
+h1[class *= "__title"] {
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 88px;
+}
+
+h2[class *= "__title"] {
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 63.984px;
+   color: #1C3554;
+}
+
+h3[class *= "__title"], h3[class *= "-title"] {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+}

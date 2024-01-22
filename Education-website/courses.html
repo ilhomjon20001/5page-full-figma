@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+   <!-- Google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+
+   <!-- Fontawesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="./assets/css/courses.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+           <div class="my-container">
+              <div class="wrapper d-flex align-items-center">
+                 <a href="./index.html" class="nav__logo">
+                    <img src="./assets/img/logo.svg" alt="nav logo">
+                 </a>
+  
+                 <label for="menu" class="menu"><i class="fa-solid fa-bars"></i></label>
+                 <input type="checkbox" id="menu">
+  
+                 <div class="nav__sections d-flex align-items-center">
+                    <label for="menu" class="close"><i class="fa-solid fa-xmark"></i></label>
+                    <input type="checkbox" id="menu">
+  
+                    <form action="#" class="nav__form d-flex align-items-center">
+                       <div class="input__search d-flex align-items-center">
+                          <input type="search" name="search" id="search">
+                          <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                       </div>
+                       <div class="input__category">
+                          <select name="categories" id="category">
+                             <option value="0">Category</option>
+                             <option value="1">About</option>
+                             <option value="2">Contacts</option>
+                          </select>
+                       </div>
+                    </form>
+  
+                    <a href="#" class="becomeMentor">Become a Mentor</a>
+  
+                    <div class="nav__register d-flex align-items-center">
+                       <a href="./account.html" class="nav__login btn">Login</a>
+                       <a href="#" class="signup btn">Sign Up</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </nav>
+
+        <div class="showcase">
+            <div class="my-container">
+                <div class="showcase__intro d-flex align-items-center">
+                    <a href="./index.html">Home</a>
+                    <p>></p>
+                    <a href="./courses.html">Programming Courses</a>
+                </div>
+
+                <h1 class="showcase__title">Programming Courses</h1>
+                <p class="showcase__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus </p>
+
+                <h3 class="showcase__courses-title">Most Popular Development Courses</h3>
+
+                <div id="carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div id="carousel" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="carousel__cards">
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UI/UX Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Interpersonal skills - work better with others!</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;384</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UI/UX Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Interpersonal skills - work better with others!</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;384</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UI/UX Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Interpersonal skills - work better with others!</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;384</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UI/UX Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Interpersonal skills - work better with others!</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;384</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="carousel__cards">
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UX Research</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">User Experience Design Essentials</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;826</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UX Research</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">User Experience Design Essentials</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;826</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UX Research</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">User Experience Design Essentials</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;826</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>UX Research</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">User Experience Design Essentials</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;826</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="carousel__cards">
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>3D Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Creating 3D Modelling in Blender</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;710</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>3D Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Creating 3D Modelling in Blender</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;710</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>3D Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Creating 3D Modelling in Blender</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;710</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel__card">
+                                        <div class="carousel__img">
+                                            <span>3D Design</span>
+                                        </div>
+                                        <a href="./detailcourse.html" class="carousel__card-title">Creating 3D Modelling in Blender</a>
+                                        <p class="carousel__card-team">Tanah Air Team</p>
+                                        <div class="carousel__card-rating d-flex align-items-center">
+                                            <div class="carousel__card-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(2078)</p>
+                                        </div>
+                                        <div class="carousel__card-price d-flex align-items-center">
+                                            <del>&dollar;640</del>
+                                            <p>&dollar;710</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                      
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="my-container">
+
+            <!-- Programming Topics -->
+            <div class="topics">
+                <div class="topics__intro d-flex align-items-center justify-content-between">
+                    <h2 class="topics__title">Programming Topics</h2>
+                    <a href="#" class="btn see__all-btn">See all</a>
+                </div>
+
+                <div class="topics__cards">
+                    <a href="#" class="topics__card">
+                        <span>Python</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>Javascript</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>CSS</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>C#</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>Web Development</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>Data Science</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>Java</span>
+                    </a>
+                    <a href="#" class="topics__card">
+                        <span>SQL</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- All Courses -->
+            <div class="allcourses">
+                <div class="allcourses__intro d-flex align-items-center justify-content-between">
+                    <h2 class="allcourses__title">All Courses</h2>
+                    <div class="allcourses__buttons d-flex align-items-center">
+                        <a href="#" class="btn filter__btn d-flex align-items-center">
+                            Filter
+                            <img src="./assets/img/dashboard.svg" alt="dashboard">
+                        </a>
+                        <a href="#" class="btn most__popular-btn d-flex align-items-center">
+                            Most Popular
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="allcourses__content">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Ratings
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body d-flex">
+                              <div class="accordion__body-item d-flex align-items-center">
+                                <input type="checkbox" name="rating" id="five">
+                                <label for="five" class="d-flex align-items-center">
+                                <div class="accordion__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h4 class="accordion__star-title">5</h4>
+                                <p>(1242)</p>
+                              </label>
+                              </div>
+
+                              <div class="accordion__body-item d-flex align-items-center">
+                                <input type="checkbox" name="rating" id="four">
+                                <label for="four" class="d-flex align-items-center">
+                                <div class="accordion__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h4 class="accordion__star-title">4+</h4>
+                                <p>(2145)</p>
+                              </label>
+                              </div>
+
+                              <div class="accordion__body-item d-flex align-items-center">
+                                <input type="checkbox" name="rating" id="three">
+                                <label for="three" class="d-flex align-items-center">
+                                <div class="accordion__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h4 class="accordion__star-title">3+</h4>
+                                <p>(224)</p>
+                              </label>
+                              </div>
+
+                              <div class="accordion__body-item d-flex align-items-center">
+                                <input type="checkbox" name="rating" id="two">
+                                <label for="two" class="d-flex align-items-center">
+                                <div class="accordion__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h4 class="accordion__star-title">2+</h4>
+                                <p>(2049)</p>
+                              </label>
+                              </div>
+
+                              <div class="accordion__body-item d-flex align-items-center">
+                                <input type="checkbox" name="rating" id="one">
+                                <label for="one" class="d-flex align-items-center">
+                                <div class="accordion__stars">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h4 class="accordion__star-title">1+</h4>
+                                <p>(2049)</p>
+                              </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  Durations
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="duration1">
+                                  <label for="duration1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">1-3 Hours</h4>
+                                  <p>(1242)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="duration2">
+                                    <label for="duration2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">3-6 Hours</h4>
+                                    <p>(2145)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="duration3">
+                                    <label for="duration3" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">6-12 Hours</h4>
+                                    <p>(224)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="duration4">
+                                    <label for="duration4" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">13+ Hours</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Categories
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="categories1">
+                                  <label for="categories1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">Golang</h4>
+                                  <p>(1242)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="categories2">
+                                    <label for="categories2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Java</h4>
+                                    <p>(2145)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="categories3">
+                                    <label for="categories3" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Flutter</h4>
+                                    <p>(224)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="categories4">
+                                    <label for="categories4" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">CSS</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Level
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="level1">
+                                  <label for="level1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">Beginner</h4>
+                                  <p>(2049)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="level2">
+                                    <label for="level2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Intermediate</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="level3">
+                                    <label for="level3" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Expert</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item languge__accordion">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                Language
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="language1">
+                                  <label for="language1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">English</h4>
+                                  <p>(2049)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="language2">
+                                    <label for="language2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Espanol</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="language3">
+                                    <label for="language3" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Melayu</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="language4">
+                                    <label for="language4" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Bahasa Indonesia</h4>
+                                    <p>(2049)</p>
+                                  </label>
+                                </div>
+
+                                <a href="#" class="show__more-accordion">
+                                    Show more 
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                Price
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="price1">
+                                  <label for="price1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">Paid</h4>
+                                  <p>(2049)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="price2">
+                                    <label for="price2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Free</h4>
+                                    <p>(825)</p>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <span class="accordion__divider"></span>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                                Features
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                              <div class="accordion-body d-flex">
+                                <div class="accordion__body-item d-flex align-items-center">
+                                  <input type="checkbox" name="rating" id="feature1">
+                                  <label for="feature1" class="d-flex align-items-center">
+                                  <h4 class="accordion__item-title">Subtitles</h4>
+                                  <p>(3688)</p>
+                                </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="feature2">
+                                    <label for="feature2" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Quizzes</h4>
+                                    <p>(1092)</p>
+                                  </label>
+                                </div>
+
+                                <div class="accordion__body-item d-flex align-items-center">
+                                    <input type="checkbox" name="rating" id="feature3">
+                                    <label for="feature3" class="d-flex align-items-center">
+                                    <h4 class="accordion__item-title">Tests</h4>
+                                    <p>(159)</p>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="allcourses__cards">
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+
+                        <div class="allcourses__card">
+                            <div class="allcourses__card-img">
+                                <span>Web Developer</span>
+                            </div>
+
+                            <a href="./detailcourse.html" class="allcourses__card-title text-decoration-none">How to become an Expert Web Developer</a>
+                            <p class="allcourses__card-team">Tanah Air Team</p>
+
+                            <div class="allcourses__card-rating d-flex align-items-center">
+                                <div class="allcourses__card-stars d-flex align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>(2078)</p>
+                            </div>
+
+                            <div class="allcourses__cards-price d-flex align-items-center">
+                                <del>&dollar;640</del>
+                                <p>&dollar;735</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="pagination list-unstyled">
+                    <li><a href="#" aria-disabled="true"><i class="fa-solid fa-angle-left"></i></a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <footer class="footer">
+        <div class="my-container">
+           <div class="wrapper d-flex">
+              <div class="footer__logo-content">
+                 <a href="#" class="footer__logo">
+                    <img src="./assets/img/footer-logo.svg" alt="footer logo">
+                 </a>
+                 <p class="footer__logo-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet tristique placerat eleifend aliquam pellentesque facilisis ultrices. Imperdiet mus urna egestas at tellus. 
+                 </p>
+              </div>
+  
+              <div class="footer__lists-card d-flex">
+                 <ul class="footer__lists-about list-unstyled d-flex flex-column">
+                    <li>About</li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="./courses.html">Courses</a></li>
+                    <li><a href="#">Mentor</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                 </ul>
+  
+                 <ul class="footer__lists-support list-unstyled d-flex flex-column">
+                    <li>Support</li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                 </ul>
+  
+                 <ul class="footer__lists-company list-unstyled d-flex flex-column">
+                    <li>Company</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                 </ul>
+              </div>
+           </div>
+  
+           <div class="footer__bottom d-flex justify-content-between align-items-center">
+              <div class="footer__privacy d-flex">
+                 <a href="#">Privacy Policy</a>
+                 <p>Terms and Condition</p>
+              </div>
+              <p class="footer__copyrights">
+                 &copy;2020 TanahAir Studio. All rights reserved.
+              </p>
+           </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
